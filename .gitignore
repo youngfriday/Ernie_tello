@@ -1,0 +1,7 @@
+/.vscode
+#不上传图片
+*.png
+*.jpg
+*.jpeg
+#不上传模型
+*.pth
