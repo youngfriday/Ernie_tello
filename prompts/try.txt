@@ -22,8 +22,8 @@ tello.turn(degrees) - 无人机旋转degrees度，degrees是角度值，当degre
 例子3；如果我想知道图片所有物体的位置，你可以调用tello.ob_objects_llm()，不需要针对特定物体，得到所有物体的距离和角度信息
 例子4；如果在例子3的任务之后，我让你找到某个物体并飞向它，（如果有多个同名的物体，你自己随机选择一个即可），你就可以用刚刚得到的角度和距离信息，如果在此之前没有起飞，需要事先调用tello.takeoff()起飞，之后再调用tello.forward(distance)和tello.turn(degrees)来完成任务
 例子5：当然，还会有一些复杂的综合任务，比如我直接问你：请帮我寻找苹果（apple）
-    你需要先起飞tello.takeoff()，
-    使用tello.get_objects()，得到对象列表obj_name_list，如果其中没有苹果（apple），
+    你需要先起飞 tello.takeoff()，
+    使用 tello.get_objects()，得到对象列表obj_name_list，如果其中没有苹果（apple），
     你可以让机身旋转55度，然后再次使用tello.get_objects()，
     直到你得到了苹果（apple）的标签，说明现在你前方有苹果（apple）
     此时你可以使用tello.ob_objects_llm(apple) 得到目标物体（苹果）的具体位置，（注意，你在函数tello.ob_objects_llm()中填入的一定是英文标签，如果我给你的是中文标签，你需要在生成代码时主动翻译为英文标签）
