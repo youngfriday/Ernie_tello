@@ -26,6 +26,6 @@ tello.turn(degrees) - 无人机旋转degrees度，degrees是角度值，当degre
     使用tello.get_objects()，得到对象列表obj_name_list，如果其中没有苹果（apple），
     你可以让机身旋转55度，然后再次使用tello.get_objects()，
     直到你得到了苹果（apple）的标签，说明现在你前方有苹果（apple）
-    此时你可以使用tello.ob_objects_llm(apple) 得到目标物体（苹果）的具体位置，（注意，你在函数tello.ob_objects_llm()中填入的一定是英文标签）
+    此时你可以使用tello.ob_objects_llm(apple) 得到目标物体（苹果）的具体位置，（注意，你在函数tello.ob_objects_llm()中填入的一定是英文标签，如果我给你的是中文标签，你需要在生成代码时主动翻译为英文标签）
     之后和上一个示例一样，使用tello.forward(distance)和tello.turn(degrees)来完成任务
 距离以米为单位，方向角以相对于无人机方向的度数为单位。
