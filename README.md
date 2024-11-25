@@ -1,6 +1,8 @@
 # Drone Voice Interaction System Based on ERNIE Bot LLM and Multimodal Models
 
-[our demo](https://bhpan.buaa.edu.cn/link/AADFAF9062597C4C29858163ABCFAA95F3)
+[our demo1](https://bhpan.buaa.edu.cn/link/AADFAF9062597C4C29858163ABCFAA95F3)
+
+[our demo2(5X)](https://bhpan.buaa.edu.cn/link/AAE8B5CE5497F241ECB2C1E12419ADDD1F)
 
 [our project website](https://youngfriday.cn/posts/%E5%9F%BA%E4%BA%8E%E6%96%87%E5%BF%83%E4%B8%80%E8%A8%80%E4%B8%8E%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%AF%AD%E9%9F%B3%E4%BA%A4%E4%BA%92%E6%97%A0%E4%BA%BA%E6%9C%BA/)
 
