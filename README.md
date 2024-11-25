@@ -1,6 +1,10 @@
 # Drone Voice Interaction System Based on ERNIE Bot LLM and Multimodal Models
 
 [our demo](https://bhpan.buaa.edu.cn/link/AADFAF9062597C4C29858163ABCFAA95F3)
+[our project website](https://youngfriday.cn/posts/%E5%9F%BA%E4%BA%8E%E6%96%87%E5%BF%83%E4%B8%80%E8%A8%80%E4%B8%8E%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%AF%AD%E9%9F%B3%E4%BA%A4%E4%BA%92%E6%97%A0%E4%BA%BA%E6%9C%BA/)
+
+This is my first time uploading an open source project, for which there may be some bugs in it.
+If you run into any problems during the installation process, please file a GitHub Issue or send an email to me.
 
 ## Project Overview
 

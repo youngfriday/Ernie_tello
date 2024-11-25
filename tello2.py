@@ -73,7 +73,7 @@ class TelloWrapper:
         self.ram_model = ram_model.to(device)#模型加载到设备上
     
         #目标检测
-        self.dino_model = load_model("./GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py", "E:/air/pretrained/groundingdino_swint_ogc.pth")
+        self.dino_model = load_model("./GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py", "./pretrained/groundingdino_swint_ogc.pth")
         self.dino_model = self.dino_model.to(device)
         
         #深度视觉估算
