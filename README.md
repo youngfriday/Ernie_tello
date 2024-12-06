@@ -13,7 +13,7 @@ If you run into any problems during the installation process, please file a GitH
 
 This project leverages the Baidu [`ERNIE Bot`](https://yiyan.baidu.com/) LLM to control a [`TELLO`](https://github.com/damiafuentes/DJITelloPy) drone for object-finding tasks and other operations. The modules are outlined as follows:
 
-- **Speech Recognition Module:** Pending upload
+- **Speech Recognition Module:** [`VOSK`](https://github.com/alphacep/vosk-api)
 - **Object Detection and Recognition Module:** Utilizing the multimodal models [`RAM`](https://github.com/xinyu1205/recognize-anything) and [`Grounding DINO`](https://github.com/IDEA-Research/GroundingDINO)
 - **Monocular Depth Estimation Module:** Based on [`GLPN`](https://huggingface.co/vinvino02/glpn-nyu)
 
